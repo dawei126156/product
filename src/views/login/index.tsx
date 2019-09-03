@@ -1,9 +1,8 @@
 import * as React from "react";
 import { Button, Form, Icon, Input } from "antd";
-class Login extends React.Component{
-//  public handleSubmit = ()=> {
 
-//   };
+class Login extends React.Component {
+  public handleSubmit = () => {};
   public render() {
     const { getFieldDecorator } = this.props.form;
     return (
@@ -42,6 +41,5 @@ class Login extends React.Component{
     );
   }
 }
-export default Form.create({ name: 'normal_login' })(Login);
 
-
+export default Form.create({ name: "normal_login" })(Login);

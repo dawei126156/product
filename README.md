@@ -4,4 +4,4 @@
 ````js
 create-react-app --scripts-type=react-scripts-ts
 ````
-#项目主页
+#项目 ts
